@@ -1,0 +1,26 @@
+{
+  "name": "hyperdb-cli",
+  "version": "0.0.0",
+  "description": "CLI for hyperdb",
+  "main": "index.js",
+  "dependencies": {
+    "hprotocol": "^0.5.0",
+    "hyperdb": "^1.0.0-rc2",
+    "hyperdiscovery": "^6.0.4",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {},
+  "bin": {
+    "hyperdb": "./bin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/hyperdb-cli.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/hyperdb-cli/issues"
+  },
+  "homepage": "https://github.com/mafintosh/hyperdb-cli"
+}
