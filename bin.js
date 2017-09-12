@@ -16,7 +16,7 @@ if (argv._[1] === 'createWriteStream') {
 }
 
 var db = hyperdb(argv._[0], argv._[1], {
-  valueEncoding: 'utf-8',
+  valueEncoding: argv.valueEncoding || 'utf-8',
   sparse: !!argv.sparse
 })
 
