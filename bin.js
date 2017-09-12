@@ -31,7 +31,7 @@ client.on('get', function (key, cb) {
   db.get(key, function (err, nodes) {
     if (err) return cb(err)
     if (!nodes) return cb(null, [])
-    cb(null, nodes.map(n => n.value))
+    cb(null, JSON.stringify(nodes.map(n => n.value)))
   })
 })
 
